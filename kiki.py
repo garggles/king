@@ -1,4 +1,8 @@
-
+count = 0
 file = open("Lali")
-name =file.read()
-print('Hello from King to '+ name)
+name =file.read().split()
+print(name[0])
+
+
+
+
